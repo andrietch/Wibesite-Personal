@@ -1,0 +1,354 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-shape {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.section-shape {
+  position: relative;
+}
+
+.header-shape::before,
+.section-shape::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffc107;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.header-shape::before {
+  width: 200px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+}
+
+.section-shape::before {
+  width: 300px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}
+
+.highlight {
+  background-color: #ffc107;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+header {
+  background-image: url("header-background.jpg"); /* Add your header background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 20px;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlight {
+  background-color: #ffc107;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.highlight {
+  text-shadow: -1px -1px 0 #8e8484, 1px -1px 0 #a79e9e, -1px 1px 0 #ab9b9b,
+    1px 1px 0 #b1a4a4; /* Add an outline to the text */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("header-background.jpg"); /* Add your header background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 20px;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlight {
+  background-color: #efe1b5;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #f3e0a9;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.header-shape::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  background-color: #ffc107;
+  border-radius: 20px; /* Adjust the radius to change the shape */
+  z-index: -1;
+}
+
+.highlight {
+  background-color: #ffc107;
+  padding: 5px 10px;
+  border-radius: 20px; /* Adjust the radius to change the shape */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #ffc107;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-shape {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.section-shape {
+  position: relative;
+}
+
+.header-shape::before,
+.section-shape::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffc107;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.header-shape::before {
+  width: 200px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+}
+
+.section-shape::before {
+  width: 300px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}
+
+.highlight {
+  background-color: #ffc107;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.image-shape {
+  text-align: center; /* Center align the image */
+}
+
+.image-shape img {
+  border-radius: 20px; /* Add a border-radius to create a shape around the image */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  transition: transform 0.3s ease-in-out; /* Add a transition effect */
+}
+
+.image-shape img:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center; /* Center align all text in sections */
+}
+
+section h2 {
+  text-align: center; /* Center align headings */
+}
+
+section div {
+  margin-bottom: 30px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
